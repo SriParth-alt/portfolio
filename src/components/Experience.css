@@ -1,0 +1,135 @@
+.experience-section {
+  min-height: 80vh;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section-title::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: var(--glass-border);
+  max-width: 300px;
+}
+
+.experience-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.experience-tabs {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-left: 2px solid var(--glass-border);
+}
+
+.tab-btn {
+  padding: 1rem 1.5rem;
+  text-align: left;
+  background: transparent;
+  border: none;
+  border-left: 2px solid transparent;
+  margin-left: -2px;
+  color: var(--text-muted);
+  font-family: var(--font-main);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  color: var(--accent-light);
+  background: rgba(124, 58, 237, 0.05);
+}
+
+.tab-btn.active {
+  color: var(--accent-color);
+  border-left-color: var(--accent-color);
+  background: rgba(124, 58, 237, 0.1);
+}
+
+.experience-content {
+  flex: 1;
+  min-height: 300px;
+}
+
+.tab-panel {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.role {
+  font-size: 1.3rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.company-name {
+  color: var(--accent-light);
+}
+
+.date {
+  color: var(--text-muted);
+  font-family: monospace;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.achievements {
+  list-style: none;
+}
+
+.achievements li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+}
+
+.achievements li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .experience-container {
+    flex-direction: column;
+  }
+  
+  .experience-tabs {
+    width: 100%;
+    flex-direction: row;
+    border-left: none;
+    border-bottom: 2px solid var(--glass-border);
+    overflow-x: auto;
+  }
+  
+  .tab-btn {
+    border-left: none;
+    border-bottom: 2px solid transparent;
+    margin-left: 0;
+    margin-bottom: -2px;
+    white-space: nowrap;
+  }
+  
+  .tab-btn.active {
+    border-left-color: transparent;
+    border-bottom-color: var(--accent-color);
+  }
+}
