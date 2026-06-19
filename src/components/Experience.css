@@ -47,13 +47,13 @@
 
 .tab-btn:hover {
   color: var(--accent-light);
-  background: rgba(124, 58, 237, 0.05);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 .tab-btn.active {
   color: var(--accent-color);
   border-left-color: var(--accent-color);
-  background: rgba(124, 58, 237, 0.1);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .experience-content {

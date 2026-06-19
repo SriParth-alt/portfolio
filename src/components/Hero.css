@@ -61,7 +61,7 @@
   overflow: hidden;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   animation: morph 8s ease-in-out infinite;
-  box-shadow: 0 0 40px rgba(124, 58, 237, 0.2);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.08);
 }
 
 .abstract-shape {
@@ -71,7 +71,7 @@
 }
 
 .shape-1 {
-  background: rgba(124, 58, 237, 0.6);
+  background: rgba(255, 255, 255, 0.12);
   width: 200px;
   height: 200px;
   top: -50px;
@@ -80,7 +80,7 @@
 }
 
 .shape-2 {
-  background: rgba(59, 130, 246, 0.6);
+  background: rgba(142, 142, 147, 0.08);
   width: 250px;
   height: 250px;
   bottom: -50px;
@@ -89,7 +89,7 @@
 }
 
 .shape-3 {
-  background: rgba(236, 72, 153, 0.4);
+  background: rgba(200, 200, 200, 0.06);
   width: 150px;
   height: 150px;
   top: 50%;

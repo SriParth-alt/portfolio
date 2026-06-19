@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --bg-color: #050510;
-  --text-color: #f1f1f1;
-  --text-muted: #8892b0;
-  --accent-color: #7c3aed;
-  --accent-light: #8b5cf6;
-  --accent-glow: rgba(124, 58, 237, 0.4);
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --text-muted: #8e8e93;
+  --accent-color: #ffffff;
+  --accent-light: #cccccc;
+  --accent-glow: rgba(255, 255, 255, 0.15);
   --glass-bg: rgba(255, 255, 255, 0.03);
-  --glass-border: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.08);
   
   --font-main: 'Inter', sans-serif;
 }
@@ -54,7 +54,7 @@ body {
   position: absolute;
   width: 40vw;
   height: 40vw;
-  background: radial-gradient(circle, rgba(139, 92, 246, 0.25) 0%, transparent 60%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 60%);
   border-radius: 50%;
   bottom: -10vw;
   right: -10vw;
@@ -64,7 +64,7 @@ body {
 
 /* Typography Utilities */
 .gradient-text {
-  background: linear-gradient(135deg, #e2e8f0 0%, #8b5cf6 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #a1a1a6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -104,7 +104,7 @@ h1, h2, h3, h4 {
 
 .btn-primary {
   background: var(--accent-color);
-  color: white;
+  color: #000000;
   box-shadow: 0 4px 15px var(--accent-glow);
 }
 
@@ -155,5 +155,5 @@ h1, h2, h3, h4 {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-color);
+  background: var(--accent-light);
 }
