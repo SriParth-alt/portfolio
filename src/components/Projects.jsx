@@ -9,7 +9,7 @@ const Projects = () => {
       title: 'Harmony(AI Playlist Maker)',
       description: 'Developed a smart music playlist generator leveraging AI algorithms to analyse user preferences, mood, and genre inputs for personalised playlists.',
       techStack: ['AI/ML', 'External APIs'],
-      githubLink: '#',
+      githubLink: 'https://github.com/SriParth-alt/AI-PLAYLIST-MAKER',
       liveLink: '#'
     },
     {
