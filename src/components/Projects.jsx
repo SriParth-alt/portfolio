@@ -25,7 +25,7 @@ const Projects = () => {
       title: 'Gridmind',
       description: 'An AI-based microgrid energy optimization system designed to manage, simulate, and optimize energy loads and storage. Integrates machine learning models for cost reduction and grid stability.',
       techStack: ['AI/ML', 'Python', 'React.js', 'Data Science'],
-      githubLink: '#',
+      githubLink: 'https://github.com/SriParth-alt/GRIDMIND',
       liveLink: '#'
     }
   ];
