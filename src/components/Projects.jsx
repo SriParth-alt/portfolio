@@ -22,9 +22,9 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Zerodha Clone',
-      description: 'Developed a full-stack web application with React.js for the frontend and Mongodb for the backend. Designed responsive and dynamic user interfaces.',
-      techStack: ['React.js', 'MongoDB', 'RESTful APIs'],
+      title: 'Gridmind',
+      description: 'An AI-based microgrid energy optimization system designed to manage, simulate, and optimize energy loads and storage. Integrates machine learning models for cost reduction and grid stability.',
+      techStack: ['AI/ML', 'Python', 'React.js', 'Data Science'],
       githubLink: '#',
       liveLink: '#'
     }
